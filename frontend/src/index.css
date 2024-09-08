@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+    overflow-x: hidden;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  margin-left: 40px;
+ 
+}
+.anchor{
+  text-decoration: none;
+  text-align: start;
+}
+#SupportWrapper{
+  display: flex;
+  margin: 0 150px;
+  justify-content: space-between;
+  
+}
+#SupportHero{
+  background-color: rgb( 56, 125, 209 );
+  color: #fff;
+}
+#SupportHero input{
+ padding: 20px 50px;
+  width: 85%;
+  border-radius: 15px;
+  border: none;
+  margin: 1.2cm;
+  
+}
+#anchorsupport{
+  text-decoration: none;
+  color: #fff;
+  line-height: 1cm;
+  
+}
+#anchorsupport2{
+  text-decoration: none;
+ 
+  line-height: 1cm;
+  
+}
+
+.containerformSignup{
+  margin: 4rem;
+}
+.containerformLogin{
+  margin: 4rem;
+}
+.Toastify__toast-icon {
+  width: 20px;  /* Adjust icon size */
+  height: 20px;
+}
