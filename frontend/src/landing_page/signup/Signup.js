@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
+
 
 const Signup = () => {
-
+  const navigate = useNavigate();
   const [inputValue, setInputValue] = useState({
     email: "",
     password: "",
