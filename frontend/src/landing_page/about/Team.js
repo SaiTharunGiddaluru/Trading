@@ -8,6 +8,7 @@ function Teams() {
             <img
               style={{ width: "40%", borderRadius: "100%" ,marginTop:"100px"}}
               src="media\images\Saitharun.jpg"
+              alt='somemedia'
             />
             <h4 className="mt-5 text-muted"> Sai Tharun</h4>
             <h6 className="mt-3 text-muted">

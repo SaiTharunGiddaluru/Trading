@@ -21,13 +21,13 @@ function LeftSection({
               {productDescription}
             </p>
             <div className="mb-5">
-            <a style={{textDecoration:"none"}}href=""> Try demo <i class="fa-solid fa-arrow-right"></i></a>
-            <a style={{textDecoration:"none"}}className="mx-5" href=""> learnMore <i class="fa-solid fa-arrow-right"></i></a>
+            <a style={{textDecoration:"none"}}href="linkss"> Try demo <i class="fa-solid fa-arrow-right"></i></a>
+            <a style={{textDecoration:"none"}}className="mx-5" href="sjjsj"> learnMore <i class="fa-solid fa-arrow-right"></i></a>
 
             </div>
            <div>
-           <a href="" style={{textDecoration:"none"}}> <img src={Google}/> </a>
-           <a className="mx-3" href="" style={{textDecoration:"none"}}> <img src={ Appstore} /></a>
+           <a href="somelinks" style={{textDecoration:"none"}}> <img src={Google}/> </a>
+           <a className="mx-3" href="somelinks" style={{textDecoration:"none"}}> <img src={ Appstore} /></a>
            </div>
            
           </div>

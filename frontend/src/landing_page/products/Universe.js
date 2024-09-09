@@ -15,6 +15,7 @@ function Universe() {
             <img
               style={{ width: "300px", height: "100px" }}
               src="media/images/zerodhaFundhouse.png"
+              alt="somemedia"
             />
 
             <p className="mt-3">
@@ -27,6 +28,7 @@ function Universe() {
             <img
               style={{ width: "300px", height: "100px" }}
               src="media/images/sensibullLogo.svg"
+               alt="somemedia"
             />
             <p className="mt-3">
               {" "}
@@ -39,6 +41,7 @@ function Universe() {
             <img
               style={{ width: "300px", height: "100px" }}
               src="media/images/tijori.svg"
+               alt="somemedia"
             />
             <p className="mt-3">
               {" "}
@@ -50,6 +53,7 @@ function Universe() {
             <img
               style={{ width: "300px", height: "100px" }}
               src="media/images/streakLogo.png"
+               alt="somemedia"
             />
 
             <p className="mt-3">
@@ -62,6 +66,7 @@ function Universe() {
             <img
               style={{ width: "300px", height: "80px",  marginBottom:"20px"}}
               src="media/images/smallcaseLogo.png"
+               alt="somemedia"
             />
             <p className="mt-3">
               {" "}
@@ -73,6 +78,7 @@ function Universe() {
             <img
               style={{ width: "300px", height: "100px" }}
               src="media/images/dittoLogo.png"
+               alt="somemedia"
             />
             <p className="mt-3">
               {" "}
