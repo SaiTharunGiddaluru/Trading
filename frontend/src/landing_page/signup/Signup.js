@@ -28,35 +28,47 @@ const Signup = () => {
     toast.success(msg, {
       position: "bottom-right",
     });
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const { data } = await axios.post(
-        "https://trading-1-21my.onrender.com/signup",
-        {
-          ...inputValue,
-        },
-        { withCredentials: true }
-      );
-      const { success, message } = data;
-      if (success) {
-        handleSuccess(message);
-        window.location.href = "https://main--tradesmart1.netlify.app/";
-      } else {
-        handleError(message);
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      try {
+        // Log input values to confirm they are being passed correctly
+        console.log("Input Values:", inputValue);
+    
+        const { data } = await axios.post(
+          "https://trading-1-21my.onrender.com/signup",
+          {
+            ...inputValue,
+          },
+          { withCredentials: true }
+        );
+        
+        console.log("Response Data:", data); // Log the server response
+    
+        const { success, message } = data;
+        
+        if (success) {
+          handleSuccess(message);
+          
+          // Delay the redirect slightly to ensure the toast is shown
+          setTimeout(() => {
+            window.location.href = "https://main--tradesmart1.netlify.app/";
+          }, 1000);
+          
+        } else {
+          handleError(message);
+        }
+      } catch (error) {
+        console.log("Error during signup:", error);
       }
-    } catch (error) {
-      console.log(error);
-    }
-    setInputValue({
-      ...inputValue,
-      email: "",
-      password: "",
-      username: "",
-    });
-  };
-
+    
+      // Clear the form after submission
+      setInputValue({
+        email: "",
+        password: "",
+        username: "",
+      });
+    };
+    
   return (
     <div className="containerformSignup">
 
