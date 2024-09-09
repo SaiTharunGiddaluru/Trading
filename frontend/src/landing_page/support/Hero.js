@@ -4,7 +4,7 @@ function Hero() {
     <section className="container-fluid mt-5 mb-5 p-3" id="SupportHero">
       <div className="mt-5 " id="SupportWrapper">
         <h4>Support Portal</h4>
-        <a  id="anchorsupport" href="#">
+        <a  id="anchorsupport" href="#jj">
           Track Tickets
         </a>
       </div>
@@ -14,10 +14,10 @@ function Hero() {
           <h3>Search for an answer or browse help topics to create a ticket</h3>
           <input st placeholder="Eg: How do I activate F&O" /> <br/>
           <ul>
-          <li><a  id="anchorsupport"href="#" >Track account opening </a><br/></li>
-          <li><a id="anchorsupport"href="#">Track segment activation</a><br/></li>
-          <li><a id="anchorsupport"href="#">Intraday margins </a><br/></li> 
-         <li><a id="anchorsupport"href="#">Kite user manual</a><br/> </li>
+          <li><a  id="anchorsupport"href="#b" >Track account opening </a><br/></li>
+          <li><a id="anchorsupport"href="#dsd">Track segment activation</a><br/></li>
+          <li><a id="anchorsupport"href="#xd">Intraday margins </a><br/></li> 
+         <li><a id="anchorsupport"href="#dcd">Kite user manual</a><br/> </li>
          </ul>
           
         </div>
