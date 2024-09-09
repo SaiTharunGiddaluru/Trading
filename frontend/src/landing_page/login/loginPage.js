@@ -55,7 +55,7 @@ const handleSuccess = (msg) => {
       const { success, message } = data;
       if (success) {
         handleSuccess(message);
-        window.location.href = "http://localhost:3001"; // Redirect to dashboard
+        window.location.href = "https://main--tradesmart1.netlify.app/"; // Redirect to dashboard
       } else {
         handleError(message);
       }

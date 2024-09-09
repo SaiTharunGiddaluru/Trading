@@ -42,7 +42,7 @@ const Signup = () => {
       const { success, message } = data;
       if (success) {
         handleSuccess(message);
-        window.location.href = "http://localhost:3001";
+        window.location.href = "https://main--tradesmart1.netlify.app/";
       } else {
         handleError(message);
       }
