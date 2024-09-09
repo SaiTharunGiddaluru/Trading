@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
-
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
 
@@ -51,7 +51,7 @@ const Signup = () => {
           
           // Delay the redirect slightly to ensure the toast is shown
           setTimeout(() => {
-            window.location.href = "https://main--tradesmart1.netlify.app/";
+            navigate("https://main--tradesmart1.netlify.app/");
           }, 1000);
           
         } else {
