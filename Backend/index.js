@@ -25,7 +25,7 @@ mongoose
 
 // Middleware setup
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:3001"],
+  origin: ["https://beamish-paletas-78a79f.netlify.app/", "https://main--tradesmart1.netlify.app/"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
