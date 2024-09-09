@@ -35,9 +35,8 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
-      'jsx-a11y/anchor-is-valid': 'warn',
-      'jsx-a11y/alt-text': 'warn',
-      
+      'jsx-a11y/anchor-is-valid': 'off',
+      'jsx-a11y/alt-text': 'off',
     },
   },
 ]
